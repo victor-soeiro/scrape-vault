@@ -21,8 +21,9 @@
 
 
 import requests
-from framework import get_soup
+from framework import get, get_soup
 import pandas as pd
+from bs4 import BeautifulSoup
 
 
 # ### **Unlimited Power**

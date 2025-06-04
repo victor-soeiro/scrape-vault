@@ -26,7 +26,8 @@
 
 import numpy as np
 import pandas as pd
-from framework import get_soup
+import requests
+from framework import get, get_soup
 import time
 
 from tqdm.notebook import tnrange

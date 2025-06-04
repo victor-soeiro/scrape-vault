@@ -46,8 +46,10 @@
 
 
 import json
-from framework import get_soup
+import requests
+from framework import get, get_soup, post
 
+from bs4 import BeautifulSoup
 from math import ceil
 
 
@@ -141,6 +143,7 @@ def get_title_information(url: str):
     if meta['productionStatus']['currentProductionStage']['id'] == 'in_development':
         return
 
+    from pprint import pprint
     #pprint(meta)
 
     # data['type'] = meta['@type']
