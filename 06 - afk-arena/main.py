@@ -4,12 +4,10 @@
 # In[1]:
 
 
-import requests
-from framework import get, get_soup
+from framework import get_soup
 import pandas as pd
 
 from tqdm.notebook import tqdm
-from bs4 import BeautifulSoup
 
 
 # In[2]:
