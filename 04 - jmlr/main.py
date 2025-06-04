@@ -16,9 +16,11 @@
 
 import re
 import pandas as pd
-from framework import get_soup
+import requests
+from framework import get, get_soup
 
 from tqdm.notebook import tqdm
+from bs4 import BeautifulSoup
 
 
 # ### **Variables**
