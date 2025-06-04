@@ -5,8 +5,7 @@
 
 
 import requests
-from framework import get, get_soup
-from bs4 import BeautifulSoup
+from framework import get
 
 
 # In[2]:

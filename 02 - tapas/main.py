@@ -26,7 +26,6 @@
 
 
 import time
-import requests
 from framework import get, get_soup
 import pandas as pd
 

@@ -1,4 +1,4 @@
-import sys, pathlib
+import pathlib
 import py_compile
 import pytest
 

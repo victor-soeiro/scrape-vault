@@ -14,8 +14,7 @@
 
 import os
 import json
-import requests
-from framework import get, get_soup
+from framework import post
 import pandas as pd
 
 from tqdm.notebook import tqdm

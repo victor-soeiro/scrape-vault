@@ -17,12 +17,10 @@
 
 
 import math
-import requests
-from framework import get, get_soup
+from framework import get_soup
 import pandas as pd
 
 from tqdm.notebook import tqdm
-from bs4 import BeautifulSoup
 
 
 # Let's define the URL to request the comics HTML page.

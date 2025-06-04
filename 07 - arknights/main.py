@@ -12,13 +12,10 @@
 # In[1]:
 
 
-import requests
-from framework import get, get_soup
+from framework import get_soup
 import pandas as pd
 
-from pprint import pprint
 from tqdm.notebook import tqdm
-from bs4 import BeautifulSoup
 
 
 # 
@@ -96,7 +93,6 @@ operators = []
 
 for url in tqdm(operators_urls):
 
-    req.encoding = 'utf-8'
 
     soup = get_soup(url)
 
